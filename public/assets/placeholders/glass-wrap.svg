@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" role="img" aria-labelledby="title desc">
+  <title id="title">Glass wrapping asset slot</title>
+  <desc id="desc">A replaceable placeholder for glass wrapping project photography.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111"/>
+      <stop offset="1" stop-color="#262621"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6C900" stop-opacity=".9"/>
+      <stop offset=".34" stop-color="#F5F5F2" stop-opacity=".18"/>
+      <stop offset=".72" stop-color="#2A2A28" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#F6C900" stop-opacity=".28"/>
+    </linearGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0v56" fill="none" stroke="#F6C900" stroke-opacity=".08" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="1125" fill="url(#bg)"/>
+  <rect width="900" height="1125" fill="url(#grid)"/>
+  <path d="M140 150h620v780H140z" fill="#101010" stroke="#3A3A36" stroke-width="7"/>
+  <path d="M202 215h496v650H202z" fill="url(#glass)" stroke="#F6C900" stroke-opacity=".7" stroke-width="5"/>
+  <path d="M276 215 202 865M498 215 424 865M698 215 624 865" stroke="#F5F5F2" stroke-opacity=".16" stroke-width="12"/>
+  <path d="M134 945h640" stroke="#F6C900" stroke-width="12"/>
+  <path d="M710 118h70v70" fill="none" stroke="#F6C900" stroke-width="8"/>
+</svg>

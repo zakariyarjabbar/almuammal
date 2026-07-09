@@ -1,0 +1,13 @@
+{
+  "name": "almuammal-printing-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format:check": "node scripts/format-check.mjs",
+    "lint": "node scripts/check.mjs",
+    "check": "npm run format:check && npm run lint",
+    "build": "node scripts/build.mjs",
+    "preview": "python3 -m http.server 4173 --directory dist"
+  }
+}

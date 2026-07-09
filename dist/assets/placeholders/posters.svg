@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" role="img" aria-labelledby="title desc">
+  <title id="title">Poster printing asset slot</title>
+  <desc id="desc">A replaceable placeholder for poster printing project photography.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A0A0A"/>
+      <stop offset="1" stop-color="#1C1C1C"/>
+    </linearGradient>
+    <pattern id="grain" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="4" r="1.4" fill="#F6C900" opacity=".12"/>
+      <circle cx="25" cy="20" r="1" fill="#F5F5F2" opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="1125" fill="url(#bg)"/>
+  <rect width="900" height="1125" fill="url(#grain)"/>
+  <g transform="rotate(-7 450 560)">
+    <rect x="220" y="180" width="460" height="710" rx="8" fill="#F5F5F2"/>
+    <rect x="252" y="220" width="396" height="340" fill="#151515"/>
+    <rect x="252" y="596" width="252" height="28" fill="#F6C900"/>
+    <rect x="252" y="650" width="330" height="22" fill="#2A2A28"/>
+    <rect x="252" y="696" width="260" height="22" fill="#2A2A28"/>
+    <rect x="252" y="742" width="312" height="22" fill="#2A2A28"/>
+  </g>
+  <path d="M105 912h690" stroke="#F6C900" stroke-width="12"/>
+  <path d="M122 130h80" stroke="#F6C900" stroke-width="8"/>
+</svg>

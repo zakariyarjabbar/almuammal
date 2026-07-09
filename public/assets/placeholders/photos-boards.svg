@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" role="img" aria-labelledby="title desc">
+  <title id="title">Photos and boards asset slot</title>
+  <desc id="desc">A replaceable placeholder for photos and boards project photography.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111"/>
+      <stop offset=".55" stop-color="#20201E"/>
+      <stop offset="1" stop-color="#0A0A0A"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1125" fill="url(#bg)"/>
+  <g fill="none" stroke="#F6C900" stroke-opacity=".22" stroke-width="3">
+    <path d="M120 150h660v820H120z"/>
+    <path d="M170 205h560v280H170z"/>
+    <path d="M170 548h250v330H170z"/>
+    <path d="M480 548h250v330H480z"/>
+  </g>
+  <rect x="192" y="230" width="516" height="230" fill="#151515"/>
+  <path d="m230 430 118-120 88 78 64-70 170 112" fill="#F6C900" opacity=".82"/>
+  <circle cx="618" cy="284" r="42" fill="#F5F5F2" opacity=".22"/>
+  <rect x="196" y="575" width="198" height="276" fill="#F5F5F2" opacity=".9"/>
+  <rect x="508" y="575" width="198" height="276" fill="#F6C900" opacity=".86"/>
+  <path d="M120 995h660" stroke="#F6C900" stroke-width="12"/>
+</svg>
