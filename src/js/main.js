@@ -99,7 +99,7 @@ function renderHeader(content) {
     <header class="site-header" data-header>
       <div class="header-inner">
         <a class="brand" href="#hero" data-nav="hero" aria-label="${businessConfig.businessNameAr}">
-          <img src="/assets/brand/logo-mark.svg" alt="" width="44" height="44" />
+          <img src="./assets/brand/logo-mark.svg" alt="" width="44" height="44" />
           <span class="brand-text">
             <strong>${state.language === "ar" ? "المؤمل" : "Almuammal"}</strong>
             <small>${state.language === "ar" ? "دعاية وإعلان" : "Printing & Advertising"}</small>
@@ -280,7 +280,7 @@ function renderAbout(content) {
     <section class="section section-black about section-anchor" id="about" aria-labelledby="about-title" data-section>
       <div class="shell about-grid">
         <figure class="about-media reveal reveal-mask">
-          <img src="/assets/placeholders/about-main.svg" alt="${content.sections.about.title}" loading="lazy" decoding="async" />
+          <img src="./assets/placeholders/about-main.svg" alt="${content.sections.about.title}" loading="lazy" decoding="async" />
         </figure>
         <div class="about-copy">
           <p class="eyebrow">${state.language === "ar" ? "المطبعة" : "The Print House"}</p>
@@ -349,7 +349,7 @@ function renderFooter(content) {
     <footer class="site-footer">
       <div class="shell footer-grid">
         <div class="footer-brand">
-          <img src="/assets/brand/logo-mark.svg" alt="" width="54" height="54" />
+          <img src="./assets/brand/logo-mark.svg" alt="" width="54" height="54" />
           <strong>${state.language === "ar" ? businessConfig.businessNameAr : businessConfig.businessNameEn}</strong>
           <p>${content.sections.footer.brandLine}</p>
         </div>
